@@ -50,7 +50,7 @@ namespace ConsoleApp5
         }
         public bool transfer(string accdeb, string accben, double amount){
             if (returnAccount(accdeb) != null&& returnAccount(accben) != null){
-                if (returnAccount(accdeb)).debite(amount) == true){
+                if (returnAccount(accdeb).debite(amount) == true){
 
                 }
             }

@@ -43,7 +43,7 @@ namespace ConsoleApp5
         public void credit(int amount){
             this.balance += amount;
         }
-        public bool debite(int amount){
+        public bool debite(double amount){
             if (balance - amount >= uncovered){
                 this.balance -= amount;
                 return true;
